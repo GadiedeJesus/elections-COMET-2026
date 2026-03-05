@@ -8,9 +8,8 @@ from datetime import datetime
 # CONNEXION SUPABASE
 # remplace par tes vraies clés !
 # ─────────────────────────────────────────
-
-SUPABASE_URL = st.secrets["https://uymukwogikrxzynujuwj.supabase.co"]
-SUPABASE_KEY = st.secrets["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV5bXVrd29naWtyeHp5bnVqdXdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2NzI5NjMsImV4cCI6MjA4ODI0ODk2M30.mG3lTMApQNh4LRtEU1S3LbI2OFMcaGgXsFCQd03JTwM"]
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
@@ -199,4 +198,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
