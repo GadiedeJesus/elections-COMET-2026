@@ -2,28 +2,30 @@ CANDIDATS = [
     {
         "id": "dean",
         "nom": "Dean Tevou",
-        "photo": "https://imgur.com/JUSL4JQ",
+        "photo": "https://res.cloudinary.com/dwcbu9ig9/image/upload/v1772697693/dean_mnygxf.jpg",
         "description": "Étudiant en ISE2.",       
         "slogan": "« Agir - Servir - Impacter. Notre école mérite mieux. »"
     },
     {
         "id": "emmanuelle",
         "nom": "Emmanuelle Enangue",
-        "photo": "https://imgur.com/4pQrV6q",
+        "photo": "https://res.cloudinary.com/dwcbu9ig9/image/upload/v1772697693/emmanuelle_mo4epb.jpg
+
+",
         "description": "Étudiante en ISE L2.",
         "slogan": "« Une présidente pour tous, pas pour un groupe »"
     },
     {
         "id": "achley",
         "nom": "Marie Achley Adannou",
-        "photo": "https://imgur.com/zGu6B1N",
+        "photo": "https://res.cloudinary.com/dwcbu9ig9/image/upload/v1772697693/achley_qww1mw.jpg",
         "description": "Étudiante en ISE L3.",
         "slogan": "« Pour un COMET plus porteur»"
     },
     {
         "id": "sagesse",
         "nom": "Sagesse Nzambou",
-        "photo": "https://imgur.com/2B89wY6",
+        "photo": "https://res.cloudinary.com/dwcbu9ig9/image/upload/v1772697692/sagesse_ikfltw.jpg",
         "description": "Étudiante en AS2.",
         "slogan": "« Professionnalisme - Innovation - Epanouissement. Avec Sagesse, des actes plus que des promesses »"
     },
@@ -37,3 +39,4 @@ CRITERES = [
     {"id": "confiance",  "label": "🤝 Confiance"},
 
 ]
+
