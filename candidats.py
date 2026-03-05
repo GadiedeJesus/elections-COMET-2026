@@ -10,8 +10,6 @@ CANDIDATS = [
         "id": "emmanuelle",
         "nom": "Emmanuelle Enangue",
         "photo": "https://res.cloudinary.com/dwcbu9ig9/image/upload/v1772697693/emmanuelle_mo4epb.jpg",
-
-",
         "description": "Étudiante en ISE L2.",
         "slogan": "« Une présidente pour tous, pas pour un groupe »"
     },
@@ -39,5 +37,6 @@ CRITERES = [
     {"id": "confiance",  "label": "🤝 Confiance"},
 
 ]
+
 
 
