@@ -100,10 +100,7 @@ def afficher_fiche_candidat(candidat):
     col_photo, col_info = st.columns([1, 2])
 
     with col_photo:
-        if os.path.exists(candidat["photo"]):
-            st.image(candidat["photo"], width=250)
-        else:
-            st.image("https://via.placeholder.com/250x300?text=" + candidat["nom"], width=250)
+       st.image(candidat["photo"], width=250)
 
     with col_info:
         st.markdown(f"## {candidat['nom']}")
@@ -198,5 +195,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
